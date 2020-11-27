@@ -50,6 +50,8 @@
 
 #define VERSION 200
 #define VERSION_SIZE sizeof( short )
+#define mlock(a,b) 0
+#define munlock(a,b) 0
 /*
  * below string MUST BE 11 bytes long
  */
