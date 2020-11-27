@@ -55,6 +55,9 @@
 #define StringsAreEqual( x,y ) strcmp( x,y ) == 0
 #define StringsAreNotEqual( x,y ) strcmp( x,y ) != 0
 
+#ifdef __OS2__
+#define PATH_MAX        260
+#endif
 /*
  * This method should return a translated version of the input text.
  *
