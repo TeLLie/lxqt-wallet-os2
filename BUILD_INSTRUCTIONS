@@ -1,0 +1,36 @@
+The build system in use is cmake
+
+To build make sure you have the following packages installed(packages may be named differently in your distribution):
+
+g++
+gcc
+cmake
+libsecret-devel( if you want to add libsecret support )
+KF5Wallet-devel( if you want to add KDE/Kwallet support )
+Qt5Widgets-devel, Qt5Core-devel and Qt5LinguistTools
+
+Build instructions are below:
+
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DNOKDESUPPORT=false -DNOSECRETSUPPORT=false -DCMAKE_BUILD_TYPE=RELEASE ..
+make
+make install
+
+meaning for different options:
+
+-DCMAKE_INSTALL_PREFIX=/usr
+This options tells the build system the root folder of where to install files.
+
+-DNOKDESUPPORT=false
+This option adds support for KDE's kwallet.
+Change the option to "true" if you do not want kwallet support.
+
+-DNOSECRETSUPPORT=false
+This option adds support for GNOME's libsecret.
+Change the option to "true" if you do not want libsecret support.
+
+-DCMAKE_BUILD_TYPE=RELEASE
+This option builds the project in release mode.
+Consult cmake documentation for other options.
+
