@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="cs">
+<TS version="2.1" language="ja">
 <context>
     <name>LXQt::Wallet::changePassWordDialog</name>
     <message>
         <location filename="../frontend/changepassworddialog.cpp" line="108"/>
         <source>Create a new wallet</source>
-        <translation>Vytvořit nový trezor</translation>
+        <translation>新しいウォレットの作成</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.cpp" line="110"/>
         <source>Create</source>
-        <translation>Vytvořit</translation>
+        <translation>作成</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.cpp" line="138"/>
         <location filename="../frontend/changepassworddialog.cpp" line="280"/>
         <source>Passwords do not match</source>
-        <translation>Zadání hesla se neshodují</translation>
+        <translation>パスワードが一致しません</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.cpp" line="221"/>
         <source>Wallet password could not be changed</source>
-        <translation>Heslo k trezoru se nepodařilo změnit</translation>
+        <translation>ウォレットのパスワードを変更できませんでした</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.cpp" line="232"/>
         <source>Wallet could not be opened with the presented key</source>
-        <translation>Zadaným kódem se trezor nepodařilo otevřít</translation>
+        <translation>ウォレットを提示されたキーで開けませんでした</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.cpp" line="244"/>
         <source>New passwords do not match</source>
-        <translation>Zadání nového hesla se neshodují</translation>
+        <translation>新しいパスワードが一致しません</translation>
     </message>
 </context>
 <context>
@@ -40,7 +40,7 @@
     <message>
         <location filename="../frontend/password_dialog.cpp" line="72"/>
         <source>Wallet could not be opened with the presented key</source>
-        <translation>Zadaným klíčem se trezor nepodařilo otevřít</translation>
+        <translation>ウォレットを提示されたキーで開けませんでした</translation>
     </message>
 </context>
 <context>
@@ -48,12 +48,12 @@
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="14"/>
         <source>Change Wallet&apos;s Password</source>
-        <translation>Změnit heslo pro trezor</translation>
+        <translation>ウォレットのパスワードを変更</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="42"/>
         <source>C&amp;hange</source>
-        <translation>&amp;změnit</translation>
+        <translation>変更(&amp;H)</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="55"/>
@@ -63,22 +63,22 @@
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="126"/>
         <source>Enter Current Password Below.</source>
-        <translation>Níže zadejte stávající heslo.</translation>
+        <translation>下に現在のパスワードを入力して下さい。</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="145"/>
         <source>Enter New Password Below.</source>
-        <translation>Níže zadejte nové heslo.</translation>
+        <translation>下に新しいパスワードを入力して下さい。</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="164"/>
         <source>Re Enter New Password Below.</source>
-        <translation>Níže zopakujte zadání nového hesla.</translation>
+        <translation>下に新しいパスワードを再入力して下さい。</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="183"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Zrušit</translation>
+        <translation>キャンセル(&amp;C)</translation>
     </message>
     <message>
         <location filename="../frontend/changepassworddialog.ui" line="196"/>
@@ -92,7 +92,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aplikace &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%1&lt;/span&gt;&apos; požádala o změnu hesla ke svému trezoru &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%2&lt;/span&gt;&apos; &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;アプリケーション &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%1&lt;/span&gt;&apos; はウォレット &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%2&lt;/span&gt;&apos; のパスワードの変更を要求しています&lt;/p&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -106,7 +106,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Níže zadejte heslo pro vytvoření nového trezoru &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%1&lt;/span&gt;&apos; pro aplikaci &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%2&lt;/span&gt;&apos;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;下にパスワード情報を入力してアプリケーション &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%2&lt;/span&gt;&apos; の新しいウォレット &apos;&lt;span style=&quot; font-weight:600;&quot;&gt;%1&lt;/span&gt;&apos; を作成して下さい &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -114,17 +114,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../frontend/password_dialog.ui" line="14"/>
         <source>lxqt wallet service</source>
-        <translation>lxqt služba trezoru</translation>
+        <translation>LXQt ウォレット サービス</translation>
     </message>
     <message>
         <location filename="../frontend/password_dialog.ui" line="42"/>
         <source>The application &apos;%1&apos; has requested to open the wallet &apos;%2&apos;.Enter the password below for this wallet to unlock it</source>
-        <translation>Aplikace &apos;%1&apos; si vyžádala otevření trezoru &apos;%2&apos;. Níže zadejte heslo k trezoru, aby mohl být odemčen</translation>
+        <translation>アプリケーション &apos;%1&apos; がウォレット &apos;%2&apos; を開くように要求しました。このウォレットのロックを解除するにはパスワードを下に入力して下さい</translation>
     </message>
     <message>
         <location filename="../frontend/password_dialog.ui" line="74"/>
         <source>Wallet &apos;%1&apos; does not exist,do you want to create it?</source>
-        <translation>Trezor &apos;%1&apos; neexistuje – chcete ho vytvořit?</translation>
+        <translation>ウォレット &apos;%1&apos; は存在しません。作成しますか？</translation>
     </message>
     <message>
         <location filename="../frontend/password_dialog.ui" line="90"/>
@@ -137,7 +137,7 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Trezor &lt;span style=&quot; font-weight:600;&quot;&gt;&apos;%1&apos;&lt;/span&gt; neexistuje – chcete ho vytvořit?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ウォレット &lt;span style=&quot; font-weight:600;&quot;&gt;&apos;%1&apos;&lt;/span&gt; は存在しません。作成しますか？&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../frontend/password_dialog.ui" line="107"/>
@@ -150,17 +150,17 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aplikace &lt;span style=&quot; font-weight:600;&quot;&gt;&apos;%1&apos;&lt;/span&gt; si vyžádala otevření trezoru;span style=&quot; font-weight:600;&quot;&gt; &apos;%2&apos;&lt;/span&gt;. Níže zadejte heslo k trezoru, aby bylo možné ho odemknout.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;アプリケーション &lt;span style=&quot; font-weight:600;&quot;&gt;&apos;%1&apos;&lt;/span&gt; はウォレット &lt;span style=&quot; font-weight:600;&quot;&gt; &apos;%2&apos;&lt;/span&gt; を開くように要求しています。 。このウォレットのロックを解除するにはパスワードを下に入力して下さい。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../frontend/password_dialog.ui" line="124"/>
         <source>&amp;Unlock</source>
-        <translation>&amp;Odemknout</translation>
+        <translation>ロック解除(&amp;U)</translation>
     </message>
     <message>
         <location filename="../frontend/password_dialog.ui" line="141"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Zrušit</translation>
+        <translation>キャンセル(&amp;C)</translation>
     </message>
     <message>
         <location filename="../frontend/password_dialog.ui" line="167"/>
